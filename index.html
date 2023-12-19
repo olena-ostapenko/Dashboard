@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <main>
+        <section class="main-left">
+            <div class="main-left_conteiner">
+                <div class="main-left_conteiner--menu">
+                    <article class="left-menu_logo">
+                        <a class="left-menu_image"></a>
+                        <p class="left-menu_vers">v.01</p>
+
+                    </article>
+                    <article class="left-menu_list">
+                        <ul class="left-menu_list__main">
+                            <li class="left-menu_list__li">
+                                <div class="left-menu_list__li--conteiner">
+                                    <div class="left-menu_list__icon dashboard"></div>
+                                    <h5 class="left-menu_list__text ">Dashboard</h5>
+                                </div>
+                                <div class="left-menu_list__v dashboard-v"></div>
+                            </li>
+                            <li class="left-menu_list__li">
+                                <div class="left-menu_list__li--conteiner">
+                                    <div class="left-menu_list__icon product"></div>
+                                    <h5 class="left-menu_list__text">Product</h5>
+                                </div>
+                                <div class="left-menu_list__v"></div>
+                            </li>
+                            <li class="left-menu_list__li">
+                                <div class="left-menu_list__li--conteiner">
+                                    <div class="left-menu_list__icon customers"></div>
+                                    <h5 class="left-menu_list__text">Customers</h5>
+                                </div>
+                                <div class="left-menu_list__v"></div>
+                            </li>
+                            <li class="left-menu_list__li">
+                                <div class="left-menu_list__li--conteiner">
+                                    <div class="left-menu_list__icon income"></div>
+                                    <h5 class="left-menu_list__text">Income</h5>
+                                </div>
+                                <div class="left-menu_list__v"></div>
+                            </li>
+                            <li class="left-menu_list__li">
+                                <div class="left-menu_list__li--conteiner">
+                                    <div class="left-menu_list__icon promote"></div>
+                                    <h5 class="left-menu_list__text">Promote</h5>
+                                </div>
+                                <div class="left-menu_list__v"></div>
+                            </li>
+                            <li class="left-menu_list__li">
+                                <div class="left-menu_list__li--conteiner">
+                                    <div class="left-menu_list__icon help"></div>
+                                    <h5 class="left-menu_list__text">Help</h5>
+                                </div>
+                                <div class="left-menu_list__v"></div>
+                            </li>
+
+                        </ul>
+
+                    </article>
+                     <article class="left-menu_user">
+                        <div class="left-menu_user--conteiner">
+                            <div class="user-photo"></div>
+                            <div class="user-info">
+                                <p class="user-info--name">Evano</p>
+                                <p class="user-info--position">Project Manager</p>
+                            </div>
+
+                        </div>
+
+                    </article>
+                   
+                </div>
+
+            </div>
+
+        </section>
+        <section class="main-user">
+            <div class="main-user_conteiner">
+                <h2>Hello Evano</h2>
+                <div class="main-user_conteiner__hand">
+                    <div class="main-user_conteiner__hand--image"></div>
+                    <h2>,</h2>
+                </div>
+
+
+
+            </div>
+        </section>
+        <section class="main-central">
+            <div class="decor-line_table"></div>
+            <nav class="main-central-header">
+                <div class="main-central-header--custemers">
+                    <p class="all-custemers">All custemers</p>
+                    <p class="active-custemers">Active custemers</p>
+                </div>
+                <div>
+                    <input type="text" class ="search" placeholder="Search">
+                </div>
+
+            </nav>
+            <article class="main-central-table">
+            
+                    <header>
+                        <div class="col customer-col">Customer Name</div>
+                        <div class="col company-col">Company</div>
+                        <div class="col phone-col">Phone Number</div>
+                        <div class="col mail-col">Email</div>
+                        <div class="col country-col">Country</div>
+                        <div class="col status-col">Status</div>
+                      </header>
+                      <div class="row">
+                        <div data-label ="Customer Name" class="col customer-col">Jane Cooper</div>
+                        <div data-label ="Company" class="col company-col">Microsoft</div>
+                        <div data-label ="Phone Number" class="col phone-col">(225) 555-0118</div>
+                        <div data-label ="Email" class="col mail-col">jane@microsoft.com</div>
+                        <div data-label ="Country" class="col country-col">United States</div>
+                        <div data-label ="Status" class="col status-col">
+                            <a href ="#" class="status active-button">Active</a>
+                        </div>
+                      </div>
+                      <div class="line-table"></div>
+                      <div class="row">
+                        <div data-label ="Customer Name" class="col customer-col">Floyd Miles</div>
+                        <div data-label ="Company" class="col company-col">Yahoo</div>
+                        <div data-label ="Phone Number" class="col phone-col">(205) 555-0100</div>
+                        <div data-label ="Email" class="col mail-col">floyd@yahoo.com</div>
+                        <div data-label ="Country" class="col country-col">Kiribati</div>
+                        <div data-label ="Status" class="col status-col">
+                            <a href ="#" class="status inactive-button">Inactive</a>
+                        </div>
+                      </div>
+                      <div class="line-table"></div>
+                      <div class="row">
+                        <div data-label ="Customer Name" class="col customer-col">Ronald Richards</div>
+                        <div data-label ="Company" class="col company-col">Adobe</div>
+                        <div data-label ="Phone Number" class="col phone-col">(302) 555-0107</div>
+                        <div data-label ="Email" class="col mail-col">ronald@adobe.com</div>
+                        <div data-label ="Country" class="col country-col">Israel</div>
+                        <div data-label ="Status" class="col status-col">
+                            <a href ="#" class="status active-button">Active</a>
+                        </div>
+                      </div>
+                      <div class="line-table"></div>
+                      <div class="row">
+                        <div data-label ="Customer Name" class="col customer-col">Marvin McKinney</div>
+                        <div data-label ="Company" class="col company-col">Tesla</div>
+                        <div data-label ="Phone Number" class="col phone-col">(252) 555-0126</div>
+                        <div data-label ="Email" class="col mail-col">marvin@tesla.com</div>
+                        <div data-label ="Country" class="col country-col">Iran</div>
+                        <div data-label ="Status" class="col status-col">
+                            <a href ="#" class="status inactive-button">Inactive</a>
+                        </div>
+                      </div>
+                      <div class="line-table"></div>
+                      <div class="line-table"></div>
+                      <div class="row">
+                        <div data-label ="Customer Name" class="col customer-col">Jerome Bell</div>
+                        <div data-label ="Company" class="col company-col">Google</div>
+                        <div data-label ="Phone Number" class="col phone-col">(629) 555-0129</div>
+                        <div data-label ="Email" class="col mail-col">jerome@google.com</div>
+                        <div data-label ="Country" class="col country-col">Réunion</div>
+                        <div data-label ="Status" class="col status-col">
+                            <a href ="#" class="status active-button">Active</a>
+                        </div>
+                      </div>
+                      <div class="line-table"></div>
+                      <div class="row">
+                        <div data-label ="Customer Name" class="col customer-col">Kathryn Murphy</div>
+                        <div data-label ="Company" class="col company-col">Microsoft</div>
+                        <div data-label ="Phone Number" class="col phone-col">(225) 555-0118</div>
+                        <div data-label ="Email" class="col mail-col">jane@microsoft.com</div>
+                        <div data-label ="Country" class="col country-col">United States</div>
+                        <div data-label ="Status" class="col status-col">
+                            <a href ="#" class="status active-button">Active</a>
+                        </div>
+                      </div>
+                      <div class="line-table"></div>
+                      <div class="row">
+                        <div data-label ="Customer Name" class="col customer-col">Jacob Jones</div>
+                        <div data-label ="Company" class="col company-col">Yahoo</div>
+                        <div data-label ="Phone Number" class="col phone-col">(208) 555-0112</div>
+                        <div data-label ="Email" class="col mail-col">jacob@yahoo.com</div>
+                        <div data-label ="Country" class="col country-col">Brazil</div>
+                        <div data-label ="Status" class="col status-col">
+                            <a href ="#" class="status active-button">Active</a>
+                        </div>
+                      </div>
+                      <div class="line-table"></div>
+                      <div class="row">
+                        <div data-label ="Customer Name" class="col customer-col">Kristin Watson</div>
+                        <div data-label ="Company" class="col company-col">Facebook</div>
+                        <div data-label ="Phone Number" class="col phone-col">(704) 555-0127</div>
+                        <div data-label ="Email" class="col mail-col">kristin@facebook.com</div>
+                        <div data-label ="Country" class="col country-col">Åland Islands</div>
+                        <div data-label ="Status" class="col status-col">
+                            <a href ="#" class="status inactive-button">Inactive</a>
+                        </div>
+                      </div>
+
+                
+
+            </article>
+            <article class="main-central-footer">
+                <div class="foooter-text_showing">Showing data 1 to 8 of  256K entries</div>
+                <div class="foooter-list">
+                    <ul class="list-row">
+                        <li>
+                            <a class="foooter-list_box v-left list-number"></a>
+                        </li>
+                        <ul class="list-row">
+                            <li>  <a href="#" class="foooter-list_box list-number list-active">1</a></li>
+                            <li>  <a href="#" class="foooter-list_box list-number">2</a></li>
+                            <li>  <a href="#" class="foooter-list_box list-number">3</a></li>
+                            <li>  <a href="#" class="foooter-list_box list-number">4</a></li>
+                            <li>  <a href="#" class="foooter-list_box list-long">...</a></li>
+                            <li>  <a href="#" class="foooter-list_box list-number">40</a></li>
+                        </ul>
+                        <li>
+                            <a class="foooter-list_box v-right list-number"></a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+
+
+        </section>
+
+    </main>
+<script src = "app.js"></script>
+</body>
+
+</html>
